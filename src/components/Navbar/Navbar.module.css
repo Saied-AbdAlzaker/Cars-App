@@ -1,0 +1,59 @@
+.btnSignup,
+.btnSignup:hover {
+  background-color: #1572d3;
+}
+.bgEasily {
+  color: #1572d3;
+  border-bottom: 5px solid #1572d3;
+  border-bottom-left-radius: 20px;
+}
+.carCaption{
+  display: flex;
+  justify-content: space-between;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.layer {
+  background-image: url("../../assets/images/landing-page/Frame.png");
+  background-size: 40%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+.carImg {
+  animation-name: carMove;
+  animation-duration: 10s;
+}
+
+@keyframes carMove {
+  0% {
+    display: none;
+    max-width: 20%;
+  }
+  100% {
+    display: inline;
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carImg {
+    animation-name: carMove;
+    animation-duration: 10s;
+  }
+  @keyframes carMove {
+    100% {
+      display: inline;
+      max-width:100%;
+    }
+  }
+  .carCaption{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+}

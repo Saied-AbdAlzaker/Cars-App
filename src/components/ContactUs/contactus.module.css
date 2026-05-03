@@ -1,0 +1,28 @@
+input {
+  background-color: #cedcff !important;
+}
+
+.iPhone {
+  width: 70%;
+}
+
+.contactFree {
+  color: #1572d3;
+}
+.btnSend {
+  background-color: #1572d3;
+  color: #fff;
+}
+.contactCaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .contactCaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

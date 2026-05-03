@@ -1,0 +1,26 @@
+
+.layer {
+    background-image: url(../../../assets//images//landing-page//experience/Vector.png);
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  }
+
+  .detailsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media screen and (max-width: 1000px) {
+  .detailsContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailsCaption{
+    margin-top: 20px;
+  }
+}

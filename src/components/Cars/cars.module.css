@@ -1,0 +1,14 @@
+.bgCars {
+  background-color: #1572d3;
+  color: #fff;
+}
+.btnSecondary,
+.btnSecondary:hover {
+  background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 1000px) {
+  .btnSecondary {
+    width: 50% !important;
+  }
+}

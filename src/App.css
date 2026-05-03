@@ -1,0 +1,19 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+.cursor{
+    cursor: pointer;
+}
+.btnWork,.btnWork:hover{
+    background-color: #1572D31A;
+    color: #1572D3;
+}
+p{
+    color: #6D6D6D;
+}
+

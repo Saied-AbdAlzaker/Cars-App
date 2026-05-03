@@ -1,0 +1,55 @@
+.about {
+  background-color: #f7fbff;
+  margin: 20px 0px;
+  padding: 30px 0px;
+}
+.aboutContent {
+  width: 90%;
+  margin: auto;
+}
+.aboutCaption {
+  display: flex;
+  background-image: url(../../assets/images/landing-page/testmonials/bg-sec6.png);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+.aboutIcon {
+  color: #efbf14;
+}
+.aboutIcon1 {
+  color: #efbf14;
+}
+.aboutCard {
+  margin-left: 20px;
+}
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutSectionCard {
+  display: flex;
+}
+.aboutImg {
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .aboutCaption {
+    display: inline-block;
+  }
+  .aboutImg {
+    width: 100%;
+  }
+  .aboutCard {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .aboutSectionCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutSection{
+    margin-top: 20px;
+  }
+}

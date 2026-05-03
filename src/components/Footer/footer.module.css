@@ -1,0 +1,21 @@
+
+.footerText,a{
+    color: #D6D6D6;
+}
+a{
+    text-decoration: none;
+}
+
+.footerCaption{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .footerCaption{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+  
